@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image:url(../images/poster.jpg);
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top:200px;
+    margin-bottom: 100px;
+}
+
+
+.tabla{
+    width:33%;
+    height: 550px;
+    margin:auto;
+    border:1px solid #46a2fd;
+    border-radius: 4px;
+    box-shadow:0 0 4px 0 #46a2fd;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color:#fff;
+}
+
+.tabla h2{
+    font-size:30px;
+    margin-bottom: 35px;
+    color:#FEBA0B;
+}
+
+.tabla i{
+    width: 64px;
+    font-size: 64px;
+    margin-bottom: 35px;
+    color:#FEBA0B;
+}
+
+.tabla > h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.tabla >p{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.boton{
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background-color: #FEBA0B;
+    text-decoration: none;
+    color:white;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin:auto;
+}
+
+.tabla:hover{
+    background: #46a2fd;
+    color: #f1f1f2;
+    transition: 300ms all;
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+@media screen and (max-width: 920px){
+    .tabla{
+        width:45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .tabla{
+        width: 45%;
+        padding:30px ;
+    }
+
+    .tabla h2{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .tabla{
+        width: 85%;
+        padding:20px ;
+    }
+
+}
