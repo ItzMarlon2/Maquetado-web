@@ -463,6 +463,26 @@ input[type=radio]{
     background:#dba009;
 }
 
+/*Efecto hover card*/
+
+/*.card-info:hover{
+    width: 350px;
+    
+}
+
+.card-info:hover .cover img{
+    top:0;
+    filter:none;
+}
+
+.card-info:hover .img__back{
+    bottom: -40px;
+}
+
+.card-info:hover .description{
+    padding: 40px;
+}*/
+
 /* AQUI TERMINAN LOS ESTILOS PARA LOS CARDS */
 
 /* AQUI EMPIEZA EL FOOTER */
